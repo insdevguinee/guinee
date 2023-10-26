@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
+
+body {
+    font-family: 'Work Sans', 'Arial', Sans-Serif;
+    background-color: #f1f1f1;
+}
+
+/* this template */
+.min-100 {
+    min-height: 100vh;
+}
+
+#sidemenu {
+    z-index: 1010;
+}
+
+/* only show subitems when parent is active*/
+#sidemenu .nav-item .nav-link.active + .nav .nav-item {
+    display: list-item;
+}
+#sidemenu .nav-item .nav-item {
+    display: none;
+}
+
+.anchor{
+  display: block;
+  height: 70px;
+  margin-top: -70px;
+  visibility: hidden;
+}
+.bg-light {
+    background-color: #ffffff!important;
+}
+.js-cookie-consent{
+  position: fixed;
+  bottom: 0;
+  background: #4ebfef;
+  padding: 5px 40px;
+  color: #fff;
+}
